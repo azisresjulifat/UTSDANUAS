@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FormActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/previewFromCamera"
+        android:src="@color/black" />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAmbilCamera"
+        android:text="Ambil Foto"
+ />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Transaksi"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/jenisTransaksiTextView"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Transaksi"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/namaTransaksiTextView"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Biaya" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/biayaTextView"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnSimpan"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        />
+</LinearLayout>
