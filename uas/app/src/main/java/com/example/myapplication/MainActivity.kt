@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setUpTabBar()
-        setTitle("UTS Azis Resjulifat | NIM 191021400002")
+        setTitle("UAS Azis Resjulifat | NIM 191021400002")
     }
 
     private fun setUpTabBar() {
